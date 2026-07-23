@@ -1,4 +1,5 @@
 Navigation:
+
 README: https://github.com/Izac7297/Generation-Green-Mod/blob/main/README.md
 
 Issues/Bugs: https://github.com/Izac7297/Generation-Green-Mod/issues
