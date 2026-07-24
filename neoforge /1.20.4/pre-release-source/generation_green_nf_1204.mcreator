@@ -1,0 +1,213 @@
+{
+  "mod_elements": [
+    {
+      "name": "BetterGrass",
+      "type": "plant",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "better_grass",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/generation_green_nf_1204/worldgen/configured_feature/better_grass.json",
+          "src/main/java/net/mcreator/generationgreen_neoforge1204/block/BetterGrassBlock.java",
+          "src/main/resources/data/generation_green_nf_1204/loot_tables/blocks/better_grass.json",
+          "src/main/resources/assets/generation_green_nf_1204/blockstates/better_grass.json",
+          "src/main/resources/data/generation_green_nf_1204/worldgen/placed_feature/better_grass.json",
+          "src/main/resources/assets/generation_green_nf_1204/models/block/better_grass.json",
+          "src/main/resources/assets/generation_green_nf_1204/models/item/better_grass.json",
+          "src/main/resources/data/generation_green_nf_1204/neoforge/biome_modifier/better_grass_biome_modifier.json"
+        ]
+      }
+    },
+    {
+      "name": "GreenerBetterGrass",
+      "type": "plant",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "greener_better_grass",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/generation_green_nf_1204/worldgen/configured_feature/greener_better_grass.json",
+          "src/main/resources/data/generation_green_nf_1204/neoforge/biome_modifier/greener_better_grass_biome_modifier.json",
+          "src/main/resources/data/generation_green_nf_1204/worldgen/placed_feature/greener_better_grass.json",
+          "src/main/java/net/mcreator/generationgreen_neoforge1204/block/GreenerBetterGrassBlock.java",
+          "src/main/resources/assets/generation_green_nf_1204/models/block/greener_better_grass.json",
+          "src/main/resources/assets/generation_green_nf_1204/blockstates/greener_better_grass.json",
+          "src/main/resources/data/generation_green_nf_1204/loot_tables/blocks/greener_better_grass.json",
+          "src/main/resources/assets/generation_green_nf_1204/models/item/greener_better_grass.json"
+        ]
+      }
+    },
+    {
+      "name": "BGP_Bonemeal_Success",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bgp_bonemeal_success",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/generationgreen_neoforge1204/procedures/BGP_Bonemeal_SuccessProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "GenerationGreen",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "generation_green",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "BetterTallGrass",
+      "type": "plant",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "better_tall_grass",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/generationgreen_neoforge1204/block/BetterTallGrassBlock.java",
+          "src/main/resources/data/generation_green_nf_1204/worldgen/configured_feature/better_tall_grass.json",
+          "src/main/resources/assets/generation_green_nf_1204/models/item/better_tall_grass.json",
+          "src/main/resources/assets/generation_green_nf_1204/blockstates/better_tall_grass.json",
+          "src/main/resources/assets/generation_green_nf_1204/models/block/better_tall_grass.json",
+          "src/main/resources/data/generation_green_nf_1204/worldgen/placed_feature/better_tall_grass.json",
+          "src/main/resources/data/generation_green_nf_1204/loot_tables/blocks/better_tall_grass.json",
+          "src/main/resources/data/generation_green_nf_1204/neoforge/biome_modifier/better_tall_grass_biome_modifier.json"
+        ]
+      }
+    },
+    {
+      "name": "GreenerBetterTallGrass",
+      "type": "plant",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "greener_better_tall_grass",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/generation_green_nf_1204/worldgen/placed_feature/greener_better_tall_grass.json",
+          "src/main/resources/assets/generation_green_nf_1204/blockstates/greener_better_tall_grass.json",
+          "src/main/resources/data/generation_green_nf_1204/loot_tables/blocks/greener_better_tall_grass.json",
+          "src/main/resources/assets/generation_green_nf_1204/models/item/greener_better_tall_grass.json",
+          "src/main/java/net/mcreator/generationgreen_neoforge1204/block/GreenerBetterTallGrassBlock.java",
+          "src/main/resources/data/generation_green_nf_1204/worldgen/configured_feature/greener_better_tall_grass.json",
+          "src/main/resources/assets/generation_green_nf_1204/models/block/greener_better_tall_grass.json",
+          "src/main/resources/data/generation_green_nf_1204/neoforge/biome_modifier/greener_better_tall_grass_biome_modifier.json"
+        ]
+      }
+    },
+    {
+      "name": "BTGPBonemealSuccess",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "btgp_bonemeal_success",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/generationgreen_neoforge1204/procedures/BTGPBonemealSuccessProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "GreenAsYoullEverBe",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "green_as_youll_ever_be",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/generation_green_nf_1204/advancements/green_as_youll_ever_be.json"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {},
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "block.generation_green_nf_1204.better_grass": "Better Grass",
+      "block.generation_green_nf_1204.greener_better_grass": "Greener Better Grass",
+      "item_group.generation_green_nf_1204.generation_green": "Generation Green",
+      "block.generation_green_nf_1204.better_tall_grass": "Better Tall Grass",
+      "block.generation_green_nf_1204.greener_better_tall_grass": "Greener Better Tall Grass",
+      "advancements.green_as_youll_ever_be.descr": "Place the 4 different types of better grass.",
+      "advancements.green_as_youll_ever_be.title": "Green as you\u0027ll ever be!"
+    }
+  },
+  "metadata": {
+    "files": [
+      "src/main/java/net/mcreator/generationgreen_neoforge1204/init/GenerationGreenNf1204ModBlocks.java",
+      "src/main/java/net/mcreator/generationgreen_neoforge1204/init/GenerationGreenNf1204ModItems.java",
+      "src/main/resources/pack.mcmeta",
+      "src/main/resources/META-INF/accesstransformer.cfg",
+      "src/main/java/net/mcreator/generationgreen_neoforge1204/init/GenerationGreenNf1204ModTabs.java",
+      "src/main/java/net/mcreator/generationgreen_neoforge1204/GenerationGreenNf1204Mod.java",
+      "src/main/resources/META-INF/mods.toml"
+    ]
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "generation_green_nf_1204",
+    "modName": "Generation Green",
+    "version": "0",
+    "description": "GG is a Minecraft mod that makes Mojang\u0027s textures for natural stuff BETTER.",
+    "author": "Izac7297_",
+    "websiteURL": "https://dcmc43.wixstudio.com/home/mods/ggreen",
+    "license": "Public Domain",
+    "serverSideOnly": false,
+    "modPicture": "better_grass_plant",
+    "requiredMods": [],
+    "dependencies": [
+      "iris_shaders"
+    ],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "neoforge-1.20.4",
+    "credits": "Mod by Izac7297_",
+    "modElementsPackage": "net.mcreator.generationgreen_neoforge1204"
+  },
+  "mcreatorVersion": 202600114619
+}
